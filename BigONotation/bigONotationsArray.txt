@@ -1,0 +1,14 @@
+Insertion => Depends
+Removal => Depends
+searching => O(n)
+Access => O(1)
+
+Array.push => O(1)
+Array.pop => O(1)
+Array.unshift => O(n)
+Array.shift => O(n)
+Array.concat => O(n)
+Array.slice => O(n)
+Array.splice => O(n)
+Array.sort => O(nlogn)
+Array.forEach/map/reduce/filter/etc => O(n)
