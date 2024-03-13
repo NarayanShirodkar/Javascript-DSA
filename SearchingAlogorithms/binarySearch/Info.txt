@@ -1,0 +1,6 @@
+Binary Search
+
+1. Binary Search is a much faster form of Search
+2. Rather than eliminating one statement at a time , you can eliminate half of the remaining elements at a time.
+3. Binary search only works on sorted array.
+4. Utilizes divide and conquer rule.
