@@ -1,0 +1,24 @@
+
+What is Sorting?
+Ans: Sorting is the process of rearranging the items in a collection(eg. an array) so that the
+     items are in some kind of order.
+For example:
+        Sorting numbers from smallest to largest.
+        Sorting names alphabetically.
+        Sorting movies based on release date.
+        etc.
+
+Javascript has built in sort methods
+
+Example: Array.sort()
+
+["a","d","b","c"].sort() => ["a","b","c","d"]
+
+The built in sort method accepts an optional comparator function
+you can use this comparator function to tell Javascript how you want it to sort.
+The comparator looks at pairs of elements(a and b), determines their sort order based on the return value.
+  if it returns -ve number, a should come before b
+  if it returns +ve number, b should come before a
+  if it returns 0, then a and b are equal
+
+  [1,4,5,2,3].sort((a,b)=> a-b) => [1,2,3,4,5]
