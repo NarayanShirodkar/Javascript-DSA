@@ -22,3 +22,12 @@ The comparator looks at pairs of elements(a and b), determines their sort order 
   if it returns 0, then a and b are equal
 
   [1,4,5,2,3].sort((a,b)=> a-b) => [1,2,3,4,5]
+
+
+
+  Time complexities
+
+  Algo            Best     Worst    Space
+  Bubble Sort      O(n)    O(n^2)   O(n^2)    O(1)
+  Insertion Sort   O(n)    O(n^2)   O(n^2)    O(1)
+  Selection Sort   O(n^2)  O(n^2)   O(n^2)    O(1)
